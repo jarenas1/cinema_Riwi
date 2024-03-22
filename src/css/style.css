@@ -1,19 +1,40 @@
-:root{
-    --colornaranja:#FF4900; /*Creamos una variable, es necesaio el -- al inicio, esto es OBLIGATORIO para el profeosr, y funciona para reutilizar valores*/
-    --colorblanco:#ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+/*importamos la fuente que vamos a usar desde google fonts, los import siemre van arriba del todo*/
+
+:root {
+    --colorazul: #098CF8;
+    /*Creamos una variable, es necesaio el -- al inicio, esto es OBLIGATORIO para el profeosr, y funciona para reutilizar valores*/
+    --colorblanco: #ffffff;
 }
 
-.colornav{
-    background-color:var(--colornaranja);
-    color:var(colorblanco) ;
+.header {
+    background-color:var(--colorazul);
+    color: var(--colorblanco);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    padding: 5px 10px;
+    border-radius: 30px;
 }
 
-*{
+body{
+    background-color:#A4CAE9;
+}
+.nav a {
+    color: var(--colorblanco);
+    text-decoration: none;
+
+}
+
+.nav {
+   display: flex;
+   gap: 10px;
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    /*Ponemos el tipo de letra que nos dio google cuando lo importamos*/
 }
