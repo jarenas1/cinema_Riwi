@@ -1,0 +1,19 @@
+:root{
+    --colornaranja:#FF4900; /*Creamos una variable, es necesaio el -- al inicio, esto es OBLIGATORIO para el profeosr, y funciona para reutilizar valores*/
+    --colorblanco:#ffffff;
+}
+
+.colornav{
+    background-color:var(--colornaranja);
+    color:var(colorblanco) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
