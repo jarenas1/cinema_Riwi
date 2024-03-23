@@ -143,3 +143,9 @@ body{
     border-radius: 30px;
     background-color:var(--colorazul);
 }
+
+.copy{
+    text-align: center;
+    color: var(--colorblanco);
+    margin-top: 30px;
+}
